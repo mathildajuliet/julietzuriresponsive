@@ -6,16 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Responsive Webpage</title>
     <link rel="stylesheet" href="styles.css">
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"/>
 </head>
+
 <body>
     <div class="nav-bar">
-        <input type= "checkbox" id= "check" class="checkbtn">
-        <label for="check">
-            <i class="fas fa-bars"></i>
-        </label>
-        <div class="logo">Snapshot</div>
+        <div class="nav-brand">
+
+            <div class="logo">Snapshot
+            </div>
+            <div class="toggler">
+
+                <button  id="btn" class="nav-toggler">
+           <i class="fa fa-bars"></i>
+         </button>
+            </div>
+        </div>
         <ul class="nav-links">
             <li><a href="#">Home</a></li>
             <li><a href="#">About</a></li>
@@ -109,5 +115,6 @@
         </div>
         <h6>Copyright &copy; 2021 Zuri Training.</h6>
     </div>
+    <script type="text/javascript" src="script.js"></script>
 </body>
 </html>
